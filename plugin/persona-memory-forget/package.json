@@ -1,0 +1,9 @@
+{
+  "name": "dsh-memory-forget",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Persona memory for DeepSeek Harness: local markdown persona store, per-turn summary injection, an end-of-turn judge, and an append-only diary.",
+  "exports": { ".": "./index.js" },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}

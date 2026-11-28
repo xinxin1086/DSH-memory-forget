@@ -1,0 +1,18 @@
+# dsh-memory-forget bundle row: storage + tools + per-turn injection + judge.
+- insert:
+    - id: dsh-memory-forget
+      name: 'dsh-memory-forget'
+      config:
+        persona: default
+        inject:
+          enabled: true
+          limits:
+            maxL1: 3
+            maxL2: 8
+            maxChars: 3000
+        judge:
+          enabled: true
+          maxCandidates: 40
+        clock:
+          turnsPerRun: 1
+          maxActive: 24
